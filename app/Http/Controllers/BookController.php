@@ -42,10 +42,10 @@ class BookController extends Controller
         $books = [
             1 => ['title' => 'Zenless Zone Zero', 'author' => 'HoYoverse', 'year' => '2024', 'genre' => 'Action'],
             2 => ['title' => 'Genshin Impact', 'author' => 'HoYoverse', 'year' => '2020', 'genre' => 'Fantasy'],
-            3 => ['title' => 'Honkai: Star Rail', 'author' => 'HoYoverse', 'year' => '2023', 'genre' => 'Sci-Fi'],
-            4 => ['title' => 'Dark Souls I', 'author' => 'FromSoftware', 'year' => '2011', 'genre' => 'Dark Fantasy'],
-            5 => ['title' => 'Dark Souls II', 'author' => 'FromSoftware', 'year' => '2012', 'genre' => 'Dark Fantasy'],
-            6 => ['title' => 'Dark Souls III', 'author' => 'FromSoftware', 'year' => '2016', 'genre' => 'Dark Fantasy'],
+            3 => ['title' => 'Honkai: Star Rail', 'author' => 'HoYoverse', 'year' => '2023', 'genre' => 'Sci-Fi, Space, Adventure'],
+            4 => ['title' => 'Dark Souls I', 'author' => 'FromSoftware', 'year' => '2011', 'genre' => 'Dark Fantasy, Thrill, Horror'],
+            5 => ['title' => 'Dark Souls II', 'author' => 'FromSoftware', 'year' => '2012', 'genre' => 'Dark Fantasy, Thrill, Horror'],
+            6 => ['title' => 'Dark Souls III', 'author' => 'FromSoftware', 'year' => '2016', 'genre' => 'Dark Fantasy, Thrill, Horror'],
         ];
             return $books; //returns the data from $books array
     }
