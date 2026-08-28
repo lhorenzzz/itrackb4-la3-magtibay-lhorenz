@@ -15,6 +15,7 @@
             <th>Title</th>
             <th>Author</th>
             <th>Year</th>
+            <th>Genre</th>
         </tr>
 
         @foreach ($books as $book)
@@ -22,6 +23,8 @@
                 <td>{{ $book['title'] }}</td>
                 <td>{{ $book['author'] }}</td>
                 <td>{{ $book['year'] }}</td>
+                <td>{{ $book['genre'] }}</td>
+
             </tr>
         @endforeach
     </table>
